@@ -43,7 +43,9 @@ public class Main {
 			System.out.println("");
 		}
 		
-		System.out.println("\n----------------\n");
+		scan.close();
+		
+		System.out.println("\n------------\n");
 		System.out.println("Lista regali");
 		System.out.println(regali);
 		
