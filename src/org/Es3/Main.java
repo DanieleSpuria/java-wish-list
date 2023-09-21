@@ -16,12 +16,16 @@ public class Main {
 			interi[i] = scan.nextInt();
 		}
 		
-		scan.close();
-		
 		Interi n = new Interi(interi, numInt);
-				
-		while(n.hasAncoraElementi()) {
-			System.out.println(n.getElementoSuccessivo());
-		}
+					
+		while(n.hasAncoraElementi())
+			System.out.print(n.getElementoSuccessivo() + " ");
+		
+//		System.out.print("Aggiungi un altro numero: ");
+//		int newInt = scan.nextInt();
+//		n.addElemento(newInt);
+//
+//		System.out.println(n);
+		
 	}
 }

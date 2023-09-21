@@ -3,9 +3,9 @@ package org.Es3;
 import java.util.Arrays;
 
 public class Interi {
-	private int numInt = 0;
+	private int   numInt = 0;
 	private int[] interi = new int[numInt];
-	private int i;
+	private int   i;
 	
 	public Interi (int[] interi, int numInt) {
 		setNumInt(numInt);
@@ -13,15 +13,19 @@ public class Interi {
 	}
 	
 	public int getElementoSuccessivo() {
-		int n = interi[i++];	
+		int    n = interi[i++];	
 		return n;
 	}
 	
 	public boolean hasAncoraElementi() {
 		boolean res = true;
 		if (i >= getNumInt()) res = false;
-		return res;
+		return  res;
 	}
+	
+//	public void addElemento(int newInt) {
+//
+//	}
 
 	public int[] getInteri() {
 		return interi;
